@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tim-Berners Lee - Wikipedia</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="images/Wikipedia's_W.svg.png">
 </head>
 <body>
-    <img src="images/wikipedia.png" alt="wikipedia icon" class="wiki-logo"/>
-    <img src="images/wikipedia-wordmark-en.svg" alt="wikipedia" class="wiki"/>
-    <h1>Tim-Berners Lee</h1>
+    <header role="banner">
+        <div class="header-container">
+            <img src="images/menu.png" alt="menu icon" class="menu-icon"/>
+            <img src="images/wikipedia.png" alt="wikipedia icon" class="wiki-logo"/>
+            <div class="wiki-and-tagline">
+                <img src="images/wikipedia-wordmark-en.svg" alt="wikipedia" class="wiki"/>
+                <img src="images/wikipedia-tagline-en.svg" alt="wiki tagline" class="wiki-tagline">
+            </div>
+            <form action="">
+                <label for="searchbar">
+                    <input type="text" placeholder="Search Wikipedia">
+                    <input type="button" value="Search" class="submit-btn">
+                </label>
+            </form>
+        </div>
+    </header>
+    <main role="main">
+        <div class="container">
+            <h1>Tim-Berners Lee</h1>
+        </div>
+        <hr/>
+    </main>
 </body>
 </html>
