@@ -15,6 +15,7 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     padding: 1rem;
+    font-family: 'Arial', sans-serif;
 }
 
 img,
@@ -73,4 +74,45 @@ header {
 
 .submit-btn {
     height: 1.8rem;
+}
+
+.main-heading, .subheading {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.subheading {
+    margin-top: 1rem;
+}
+
+.main-img {
+    margin: 2rem 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {
+    font-family: serif;
+}
+
+h1, h2, p, video {
+    margin: auto;
+}
+
+video {
+    margin-bottom: 1.5rem;
+}
+
+.info {
+    width: 55vw;
+}
+
+hr {
+    width: 55vw;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
 }
